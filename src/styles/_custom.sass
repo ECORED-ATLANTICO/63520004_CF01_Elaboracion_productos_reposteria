@@ -2,12 +2,17 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 28%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 8%
+    right: 17%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
     right: 30%
 
 @keyframes float1
@@ -43,3 +48,65 @@ figcaption
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+//////////COLOR_TEXTO_BOTON_REGRESAR///////////
+.barra-avance__boton--regresar span
+  color: white !important
+
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+.banner-text
+  background-color: #EBF4FF
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
+  
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #D8E9FF !important
+  &-2
+    background-color: #FFE69B
+  &-3
+    background-color: #D5D1E2
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+///////////////fondos/////////////////
+.bg-fondo
+  &-1
+    //background-image: url("../assets/bg/bg1.png") !important
+    background-position: top
+  &-2
+    // background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-slider
+    //background-image: url("../assets/bg/bg-slider.png") !important
+    background-position: bottom
