@@ -157,7 +157,7 @@
             TabsA.color-acento-botones
               .tarjeta.color-acento-botones--borde.p-4(titulo="Básculas digitales")
                 .row.justify-content-center.align-items-center
-                  .col-lg-8
+                  .col-lg-8.mb-3.mb-lg-0
                     h4 Básculas digitales
                     p.mb-0 Precisas y fáciles de leer, ideales para pequeñas y grandes cantidades.
                   .col-lg-4
@@ -165,7 +165,7 @@
                       img(src='@/assets/curso/tema2/15.png', alt='')
               .tarjeta.color-acento-botones--borde.p-4(titulo="Básculas mecánicas (de resorte)")
                 .row.justify-content-center.align-items-center
-                  .col-lg-8
+                  .col-lg-8.mb-3.mb-lg-0
                     h4 Básculas mecánicas (de resorte)
                     p.mb-0 Robustas y no requieren batería, aunque menos precisas que las digitales.
                   .col-lg-4
@@ -173,7 +173,7 @@
                       img(src='@/assets/curso/tema2/14.png', alt='')
               .tarjeta.color-acento-botones--borde.p-4(titulo="Termómetros")
                 .row.justify-content-center.align-items-center
-                  .col-lg-8
+                  .col-lg-8.mb-3.mb-lg-0
                     h4 Termómetros
                     p.mb-0 De cocina (para almíbares y aceites) y de sonda (para controlar la temperatura interna de los productos horneados o cremas).
                   .col-lg-4
@@ -181,7 +181,7 @@
                       img(src='@/assets/curso/tema2/16.png', alt='')
               .tarjeta.color-acento-botones--borde.p-4(titulo="Jarras y cucharas medidoras")
                 .row.justify-content-center.align-items-center
-                  .col-lg-8
+                  .col-lg-8.mb-3.mb-lg-0
                     h4 Jarras y cucharas medidoras
                     p.mb-0 Para líquidos y pequeñas cantidades de sólidos o especias.
                   .col-lg-4
@@ -210,9 +210,10 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema2/19.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.w-100
             h4.mb-3 Tijeras y cortadores de pasta
             p.mb-0  Para cortar y dar forma a masas.
+           
     
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -228,7 +229,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema2/21.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.w-100
             h4.mb-3 Brochas y pinceles
             p.mb-0 Para pintar con huevo, almíbar o mantequilla derretida.
     
@@ -331,7 +332,7 @@
           .row.align-items-center
             .col-lg-auto.mb-3.mb-lg-0
               img.d-none.d-lg-flex(src="@/assets/curso/tema2/29.svg", style="max-width: 90px").mx-auto
-            .col-lg
+            .col-lg.px-4.pb-4.pb-lg-0
               p.mb-0 <b>Ejemplo</b>: en una batidora de pedestal, es crucial saber cómo acoplar el bowl, cómo insertar el batidor (globo, pala o gancho) hasta que encaje en el eje y cómo subir o bajar la plataforma.
     
     .row.mb-5

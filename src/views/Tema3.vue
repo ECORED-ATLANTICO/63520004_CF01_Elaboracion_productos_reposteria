@@ -20,10 +20,10 @@
       h2 3.1 Caracterización de ingredientes base: harinas, azúcares, grasas y leudantes
     
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.mb-3.mb-lg-0.order-2
+      .col-lg-3.order-2
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
-      .col-lg-9.order-1
+      .col-lg-9.order-1.mb-3.mb-lg-0
         p.mb-0(data-aos="fade-right") Cada uno de estos ingredientes cumple una función específica en las preparaciones, influyendo en aspectos como la textura, el sabor, el volumen y la consistencia de los productos finales. Comprender sus propiedades y su correcta utilización permite obtener mejores resultados en la elaboración de diferentes productos de repostería.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -41,35 +41,35 @@
             .col-lg-4.mb-3.mb-lg-0.order-2
               figure
                 img(src='@/assets/curso/tema3/3.png', alt='Imagen de acompañamiento')
-            .col-lg-8.mb-4.mb-md-0.order-1
+            .col-lg-8.mb-4.mb-lg-0.order-1
               h4 Harina de trigo
               p.mb-0 La más utilizada. Su calidad depende del contenido y calidad de las proteínas (gluten). Este ingrediente contiene proteínas que, al mezclarse con líquidos y someterse al amasado o batido, forman el gluten, una red que ayuda a retener gases durante la cocción. Gracias a esta propiedad, las preparaciones logran volumen, textura y estabilidad, aspectos fundamentales para obtener productos de repostería de buena calidad.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
               figure
                 img(src='@/assets/curso/tema3/4.png', alt='Imagen de acompañamiento')
-            .col-lg-8.mb-4.mb-md-0.order-1
+            .col-lg-8.mb-4.mb-lg-0.order-1
               h4 Harina de fuerza (alta en gluten)
               p.mb-0 Ideal para masas que requieren mucha estructura, como panes, hojaldre y masas fermentadas. Se caracteriza por tener un mayor contenido de proteínas, lo que favorece la formación de gluten durante la preparación de las masas. Esta característica permite obtener masas más elásticas, resistentes y con mayor capacidad para retener los gases producidos durante la fermentación o cocción.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
               figure
                 img(src='@/assets/curso/tema3/5.png', alt='Imagen de acompañamiento')
-            .col-lg-8.mb-4.mb-md-0.order-1
+            .col-lg-8.mb-4.mb-lg-0.order-1
               h4 Harina floja (baja en gluten)
               p.mb-0 Es un tipo de harina de trigo que se caracteriza por tener un menor contenido de proteínas y, por lo tanto, formar menos gluten durante la preparación de las masas. Perfecta para masas batidas, bizcochos, galletas y pasteles, donde se busca una textura tierna y esponjosa.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
               figure
                 img(src='@/assets/curso/tema3/6.png', alt='Imagen de acompañamiento')
-            .col-lg-8.mb-4.mb-md-0.order-1
+            .col-lg-8.mb-4.mb-lg-0.order-1
               h4 Harina todo uso
               p.mb-0 La harina de todo uso es un tipo de harina de trigo versátil que se caracteriza por tener un contenido de proteínas intermedio, lo que permite utilizarla en una amplia variedad de preparaciones. Gracias a este equilibrio, puede emplearse tanto en productos de repostería como en algunas elaboraciones de panadería.
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
               figure
                 img(src='@/assets/curso/tema3/7.png', alt='Imagen de acompañamiento')
-            .col-lg-8.mb-4.mb-md-0.order-1
+            .col-lg-8.mb-4.mb-lg-0.order-1
               h4 Otras harinas
               p Estas harinas pueden variar en sabor, textura y valor nutricional, lo que permite diversificar las recetas y adaptarlas a distintas necesidades o preferencias alimentarias.
               p.mb-0 Entre las más utilizadas se encuentran la harina de maíz, la harina de arroz, la harina de avena y la harina de almendra. Cada una aporta propiedades particulares a las masas y mezclas, por lo que su uso adecuado permite obtener productos con sabores, texturas y características diferentes dentro de la repostería.

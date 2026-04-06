@@ -32,7 +32,7 @@
 
         .row.mb-5.justify-content-center
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-            .tarjeta--boton.bg-color-12.h-100.p-4
+            .tarjeta--boton.bg-color-sintesis.box-shadow.h-100.p-4
               .row.justify-content-center.mb-3
                 .col-5
                   figure
@@ -41,7 +41,7 @@
               h3.bg-color-5.p-2.mb-4.text-center Inocuidad del producto
               p.text-center Al prevenir la proliferación de microorganismos patógenos como Salmonella o E. coli, que pueden encontrar en cremas, huevos o leche un medio propicio para su desarrollo.
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
-            .tarjeta--boton.bg-color-12.h-100.p-4
+            .tarjeta--boton.bg-color-sintesis.box-shadow.h-100.p-4
               .row.justify-content-center.mb-3
                 .col-5
                   figure
@@ -50,7 +50,7 @@
               h3.bg-color-5.p-2.mb-4.text-center Calidad consistente
               p.text-center U entorno de trabajo ordenado y limpio permite seguir las recetas al pie de la letra, reduciendo la variabilidad y asegurando un producto final uniforme.
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-            .tarjeta--boton.bg-color-12.h-100.p-4
+            .tarjeta--boton.bg-color-sintesis.box-shadow.h-100.p-4
               .row.justify-content-center.mb-3
                 .col-5
                   figure
@@ -59,7 +59,7 @@
               h3.bg-color-5.p-2.mb-4.text-center Imagen y confianza
               p.text-center Un taller que cumple con las BPM proyecta profesionalismo y genera confianza en los clientes y autoridades sanitarias.
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-            .tarjeta--boton.bg-color-12.h-100.p-4
+            .tarjeta--boton.bg-color-sintesis.box-shadow.h-100.p-4
               .row.justify-content-center.mb-3
                 .col-5
                   figure
@@ -79,37 +79,37 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-3")
           div(titulo="Instalaciones internas y mobiliario")
             .row.justify-content-center.p-3
-              .col-lg-8
+              .col-xl-8
                 p.ms-5 Se refiere a las condiciones estructurales de la planta procesadora, incluyendo paredes, pisos, techos, puertas, ventanas, iluminación, ventilación y áreas de almacenamiento. Estas deben estar construidas con materiales lisos, impermeables, no tóxicos y de fácil limpieza, que permitan mantener condiciones higiénicas y prevenir la contaminación cruzada, su diseño debe facilitar el flujo adecuado del proceso productivo, desde la recepción de materias primas hasta el producto final, garantizando inocuidad.
-              .col-lg-4
+              .col-xl-4
                 figure
                   img(src="@/assets/curso/tema1/8.png", alt="")
           div(titulo="Equipos, recipientes y utensilios")
             .row.justify-content-center.p-3
-              .col-lg-8
+              .col-xl-8
                 p.ms-5 Incluye todos los elementos que entran en contacto directo con los alimentos durante su procesamiento. Deben estar fabricados con materiales resistentes, lisos, no absorbentes y no reactivos, que permitan su fácil limpieza y desinfección..
-              .col-lg-4
+              .col-xl-4
                 figure
                   img(src="@/assets/curso/tema1/9.png", alt="")
           div(titulo="Instalaciones sanitarias")
             .row.justify-content-center.p-3
-              .col-lg-8
+              .col-xl-8
                 p.ms-5 Comprende el sistema de abastecimiento de agua potable, tuberías, drenajes, manejo de desechos sólidos y líquidos, servicios sanitarios, estaciones de lavado de manos y pediluvios, estas instalaciones deben garantizar condiciones higiénicas adecuadas, prevenir la contaminación del alimento y asegurar el correcto manejo de residuos dentro de la planta.
-              .col-lg-4
+              .col-xl-4
                 figure
                   img(src="@/assets/curso/tema1/9-1.png", alt="")
           div(titulo="Control de plagas y residuos")
             .row.justify-content-center.p-3
-              .col-lg-8
+              .col-xl-8
                 p.ms-5 Consiste en la prevención, monitoreo y erradicación de insectos, roedores y otros animales que puedan contaminar los alimentos. Incluye barreras físicas, trampas, inspecciones periódicas y programas documentados de control, este pilar protege la planta de riesgos biológicos externos que afectan la inocuidad.
-              .col-lg-4
+              .col-xl-4
                 figure
                   img(src="@/assets/curso/tema1/10.png", alt="")
           div(titulo="Equipos y utensilios")
             .row.justify-content-center.p-3
-              .col-lg-8
+              .col-xl-8
                 p.ms-5 Regula la limpieza, desinfección y mantenimiento de utensilios, tablas de corte, maquinaria y superficies de contacto con alimentos, asegurando que sean seguros y fáciles de higienizar.
-              .col-lg-4
+              .col-xl-4
                 figure
                   img(src= "@/assets/curso/tema1/11.png", alt="")
     

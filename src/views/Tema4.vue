@@ -66,8 +66,8 @@
     .bg-full-width.bg-fondo-3.mb-5
       .px-4.px-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-8.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6").p-4
+          .col-lg-8.order-2
+            SlyderF(columnas="col-12 col-lg-6").p-lg-4
               .bg-color-sintesis.tarjeta.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema4/8.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 p.text-center Leer la receta o la orden de producción completamente.
@@ -86,7 +86,7 @@
               .bg-color-sintesis.tarjeta.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema4/13.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 p.text-center Organizar el espacio de trabajo: colocar los ingredientes y herramientas de manera lógica para que el proceso fluya.
-          .col-md-8.col-lg-4.order-lg-1
+          .col-md-8.col-lg-4.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/7.png', alt='Descripción de la imagen')
     
@@ -150,8 +150,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Diagrama de proceso para el alistamiento de insumos, para para un bizcocho básico.
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/19.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/19-1.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
+        img.mb-2.d-none.d-md-block(data-aos="fade-up", src="@/assets/curso/tema4/19.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
+        img.mb-2.d-md-none(data-aos="fade-up", src="@/assets/curso/tema4/19-1.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
         figcaption <strong>Fuente:</strong> SENA, 2026.
 
     separador
