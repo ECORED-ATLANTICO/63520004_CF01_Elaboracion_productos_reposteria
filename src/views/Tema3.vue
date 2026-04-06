@@ -117,7 +117,209 @@
           img.d-none.d-lg-flex(src="@/assets/curso/tema3/9.png", style="max-width: 167px").mx-auto
         .col-lg.order-1.mb-3.mb-lg-0
           p.mb-0.p-4 Las grasas son ingredientes importantes en la repostería, ya que contribuyen a mejorar la textura, el sabor y la suavidad de las preparaciones. Su presencia en las recetas ayuda a aportar humedad a las masas, facilita el mezclado de los ingredientes y permite obtener productos más tiernos y agradables al paladar.
+    
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Mantequilla" :icono="require('@/assets/componentes/11.svg')")
+        .row.justify-content-center.align-items-center.p-4.p-lg-0
+          .col-lg-8.mb-4.mb-lg-0
+            h4 Mantequilla
+            p La grasa reina en la repostería de calidad. Aporta sabor, textura, ternura y ayuda al hojaldrado. Debe ser mantequilla sin sal (a menos que la receta indique lo contrario) y con un alto contenido de grasa (mínimo 82 %).
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema3/10.png', alt='')
+      .py-4.py-md-5(titulo="Margarina" :icono="require('@/assets/componentes/12.svg')")
+        .row.justify-content-center.align-items-center.p-4.p-lg-0
+          .col-lg-8.mb-4.mb-lg-0
+            h4 Margarina
+            p Alternativa más económica, elaborada a partir de aceites vegetales. Puede tener un sabor y comportamiento diferente a la mantequilla. Existen margarinas especiales para hojaldre y para cremas.
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema3/11.png', alt='')
+      .py-4.py-md-5(titulo="Aceites vegetales" :icono="require('@/assets/componentes/13.svg')")
+        .row.justify-content-center.align-items-center.p-4.p-lg-0
+          .col-lg-8.mb-4.mb-lg-0
+            h4 (girasol, canola, maíz)
+            p Son grasas líquidas de origen vegetal usados en bizcochos húmedos (como el de zanahoria o yogur) y masas fritas. No aportan sabor y mantienen los productos más húmedos por más tiempo.
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema3/12.png', alt='')
+      .py-4.py-md-5(titulo="Grasas sólidas vegetales (manteca)" :icono="require('@/assets/componentes/14.svg')")
+        .row.justify-content-center.align-items-center.p-4.p-lg-0
+          .col-lg-8.mb-4.mb-lg-0
+            h4 Grasas sólidas vegetales (manteca)
+            p Su origen es a partir de aceites vegetales que han sido procesados para adquirir una consistencia sólida, lo que facilita su incorporación en diferentes mezclas y masas. Se utilizan en repostería tradicional y en algunas masas para aportar textura crujiente.
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema3/13.png', alt='')
+    
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Leudantes
 
+    p.mb-5 Los leudantes son ingredientes utilizados en repostería para generar esponjosidad y volumen en las preparaciones. Su función principal es producir o liberar gases durante el proceso de mezcla o cocción, lo que permite que las masas se expandan y adquieran una textura más ligera y aireada.
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-md-8.col-lg-3.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema3/14.png", data-aos="zoom-in")
+      .col-lg-9
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Bicarbonato de sodio")
+            h4 Bicarbonato de sodio
+            p.mb-0 Utilizado en repostería para ayudar a que las masas se expandan y adquieran una textura más esponjosa. Necesita un ácido (jugo de limón, yogur, leche, cacao) para activarse.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Polvo de hornear ")
+            h4 Polvo de hornear 
+            p.mb-0 Contiene bicarbonato y un ácido en polvo (cremor tártaro) que se activa con el líquido y con el calor (doble acción), permitiendo que las preparaciones se expandan durante la cocción.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Levadura fresca (prensada)")
+            h4 Levadura fresca (prensada)
+            p.mb-0 Es un hongo vivo que fermenta los azúcares de la masa produciendo CO2. Se usa en panes, brioches, roscas
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Levadura seca (granulada)")
+            h4 Levadura seca (granulada)
+            p.mb-0 La misma levadura, pero deshidratada. Debe rehidratarse antes de usar (o mezclarse con la harina, según el tipo). Tiene mayor duración que la fresca.
+    
+    separador
+    
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Clasificación de insumos complementarios: lácteos, chocolates, frutas y aditivos
+    
+    img(src="@/assets/curso/tema3/15.png", alt="Imagen decorativa")
+    
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-10(data-aos="fade-up")
+        p.banner-text En la repostería, además de los ingredientes básicos como harinas, azúcares y grasas, existen insumos complementarios que aportan sabor, aroma, color, textura y valor nutricional a las preparaciones. Estos ingredientes permiten enriquecer las recetas y ampliar la variedad de productos que se pueden elaborar, contribuyendo a mejorar la calidad y presentación de los postres. Estos insumos enriquecen las preparaciones, aportando sabor, color, textura y valor nutricional.
+    
+    .bg-fondo-slider.bg-full-width.tarjeta.mb-5
+      .p-4.p-lg-5
+        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+          .row.justify-content-center.align-items-center.p-3.p-lg-5
+            .col-lg-4.mb-3.mb-lg-0.order-2
+              figure
+                img(src='@/assets/curso/tema3/16.png', alt='Imagen de acompañamiento')
+            .col-lg-8.mb-4.mb-md-0.order-1
+              h4 Lácteos
+              p <b>Leche</b>: entera, semidesnatada o desnatada. La grasa de la leche entera aporta sabor y terneza. Se puede usar en polvo (rehidratada) para mayor duración.
+              p <b>Crema de leche (o nata)</b>: fundamental para ganaches, mousses, cremas chantilly y salsas. Según su contenido de grasa (35-40 %) para montar), puede batirse para aumentar su volumen.
+              p <b>Huevos</b>: un ingrediente multifuncional. Las claras aportan estructura y esponjosidad (al batirlas). Las yemas aportan grasa, color, sabor y actúan como emulsionantes.
+              p <b>Quesos</b>: crema (tipo Philadelphia) para cheesecakes, mascarpone para tiramisú, ricotta para tartas y pastas.
+
+          .row.justify-content-center.align-items-center.p-3.p-lg-5
+            .col-lg-4.mb-3.mb-lg-0.order-2
+              figure
+                img(src='@/assets/curso/tema3/17.png', alt='Imagen de acompañamiento')
+            .col-lg-8.mb-4.mb-md-0.order-1
+              h4 Chocolate
+              p <b>Chocolate blanco</b>: contiene manteca de cacao, leche y azúcar, pero no pasta de cacao. Es muy dulce y delicado.
+
+              p <b>Chocolate con leche</b>: mezcla de pasta de cacao, manteca de cacao, leche y azúcar.
+
+              p <b>Chocolate oscuro (amargo, semi-amargo, bitter)</b>: contiene pasta de cacao, manteca de cacao y azúcar. A mayor porcentaje de cacao (>70 %), más intenso y menos dulce.
+
+              p <b>Formatos</b>: en cobertura (tabletas de alta calidad, con mayor contenido de manteca de cacao, ideales para templar y fundir), en polvo (para mezclar o decorar), en gotas (para galletas).
+
+          .row.justify-content-center.align-items-center.p-3.p-lg-5
+            .col-lg-4.mb-3.mb-lg-0.order-2
+              figure
+                img(src='@/assets/curso/tema3/18.png', alt='Imagen de acompañamiento')
+            .col-lg-8.mb-4.mb-md-0.order-1
+              h4 Frutas
+              p <b>Frescas</b>: frutas de temporada (fresas, frambuesas, moras, manzanas, peras, duraznos) para decorar, rellenar, hacer compotas o coulis.
+
+              p <b>Deshidratadas</b>: pasas, ciruelas, orejones, arándanos, dátiles. Aportan dulzor concentrado y textura.
+
+              p <b>En conservas</b>: (o almíbar o pulpas): Para rellenos y elaboración de mermeladas o jaleas.
+
+          .row.justify-content-center.align-items-center.p-3.p-lg-5
+            .col-lg-4.mb-3.mb-lg-0.order-2
+              figure
+                img(src='@/assets/curso/tema3/19.png', alt='Imagen de acompañamiento')
+            .col-lg-8.mb-4.mb-md-0.order-1
+              h4 Aditivos
+              p <b>Estabilizantes y espesantes</b>: gelatina (en polvo o láminas, para dar firmeza a mousses y postres fríos), pectina (para espesar mermeladas), almidón de maíz (maicena).
+
+              p <b>Saborizantes</b>: extractos (vainilla, almendra, menta), esencias, licores (ron, brandy, licor de naranja), especias (canela, nuez moscada, jengibre, clavo).
+
+              p <b>Colorantes</b>: naturales (remolacha, cúrcuma, espirulina) o artificiales (en gel, pasta o líquido).
+
+    separador
+    
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.3 Criterios de calidad y fichas técnicas de las materias primas
+    
+    .bg-color-1.tarjeta.mb-5
+      .row.align-items-center
+        .col-lg-auto.order-2
+          img.d-none.d-lg-flex(src="@/assets/curso/tema3/20.png", style="max-width: 160px").mx-auto
+        .col-lg.order-1.mb-3.mb-lg-0
+          p.mb-0.px-4 El seleccionar una materia prima de calidad es el primer paso para un producto final excelente. Los criterios de calidad se basan en la observación sensorial y la información del proveedor.
+    
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Criterios sensoriales
+    
+    .bg-color-12.tarjeta.p-4.mb-5
+      p.mb-0 Son aspectos que permiten evaluar la calidad de los productos de repostería a través de los sentidos. Estos criterios ayudan a analizar características como el sabor, el aroma, la textura, el color y la apariencia de las preparaciones, elementos que influyen en la aceptación del producto por parte de los consumidores.
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-md-8.col-lg-3.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema3/21.png", data-aos="zoom-in")
+      .col-lg-9
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Aspecto")
+            h4 Aspecto
+            p Debe ser uniforme, sin manchas, moho, magulladuras o signos de deterioro. 
+            p <b>Ejemplo</b>: las fresas deben ser firmes, de color rojo brillante y sin partes blandas. La harina debe ser blanca o ligeramente crema, sin grumos ni bichos.
+
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Olor")
+            h4 Olor
+            p Característico del producto, fresco y agradable. No debe tener olores rancios (grasas), a humedad o a químicos. 
+            p <b>Ejemplo</b>: la mantequilla fresca tiene un olor lácteo suave; si huele a rancio, está descompuesta.
+
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Textura")
+            h4 Textura
+            p Consistencia apropiada para el tipo de producto. 
+            p <b>Ejemplo</b>: La mantequilla debe ser firme pero maleable a temperatura ambiente. El chocolate debe ser brillante y quebrarse con un chasquido limpio.
+
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Sabor (en caso de ser posible)")
+            h4 Sabor (en caso de ser posible)
+            p.mb-0 Puro y característico. Las materias primas en mal estado pueden tener sabores agrios, metálicos o amargos no deseados.
+
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Fichas Técnicas
+    
+    .bg-color-12.tarjeta.p-4.mb-5
+      p.mb-0 Es un documento del proveedor que especifica las características, composición, propiedades y condiciones de manejo de un producto. Es una herramienta de aseguramiento de la calidad.
+    
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Información clave que debe contener
+    
+    .row.mb-5.justify-content-center.align-items-center
+      .col-md-8.col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema3/22.png", data-aos="zoom-in")
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Identificación del producto") Nombre comercial, nombre genérico, código interno.
+          
+          p(numero="2" titulo="Descripción del producto") Características organolépticas, físicas y químicas.
+          
+          p(numero="3" titulo="Ingredientes y composición") Lista de ingredientes y aditivos, tabla nutricional.
+          
+          p(numero="4" titulo="Información de alérgenos") Debe indicar si contiene o pudo haber contacto cruzado con alérgenos como gluten, leche, huevo, soja, frutos secos, etc. (Crucial para la seguridad del consumidor).
+
+          p(numero="5" titulo="Condiciones de conservación y transporte") Temperatura, humedad, protección de la luz.
+          
+          p(numero="6" titulo="Vida útil (fecha de vencimiento)") Tiempo durante el cual el producto mantiene sus propiedades óptimas si se conserva adecuadamente
+          
+          p(numero="7" titulo="Instrucciones de uso y preparación (si aplica)") Corresponden a las indicaciones que describen de forma clara cómo utilizar o preparar un producto o ingrediente dentro de una receta.
+          
+          p(numero="8" titulo="Presentación y empaque") Tipo de envase, peso neto, unidades por caja.
 
 </template>
 

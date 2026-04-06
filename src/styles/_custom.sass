@@ -90,6 +90,8 @@ figcaption
     border: 3px solid #FF7630
   &-11
     color: #997B4D !important
+  &-12
+    background-color: #FFF9F1
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -247,3 +249,42 @@ figcaption
   background-color: #941FF0
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-color: #941FF0
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+    color: white
+  .fa-chevron-right
+    font-size: 20px
+    color: white
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+//////////CUSTOM TARJETA AVATAR TOP////////////
+.tarjeta-avatar
+  padding-top: 50px
+.tarjeta-avatar .tarjeta
+  padding-top: 20px !important
+.tarjeta-avatar > img
+  width: 95px
