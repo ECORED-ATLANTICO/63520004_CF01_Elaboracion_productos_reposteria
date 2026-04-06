@@ -70,9 +70,26 @@ figcaption
   &-1
     background-color: #D8E9FF !important
   &-2
-    background-color: #FFE69B
+    background-color: #F0F3FD
   &-3
-    background-color: #D5D1E2
+    background-color: #FFEACB
+  &-4
+    background-color: #FFF4E5 !important
+  &-5
+    background-color: #FCEDF9
+  &-6
+    background-color: #F3F0EA
+  &-7
+    color: #FFCD80 !important
+  &-8
+    background-color: #FFF2EB
+  &-9
+    background-color: #EBF4FF !important
+  &-10
+    background-color: #F6F6F6
+    border: 3px solid #FF7630
+  &-11
+    color: #997B4D !important
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -102,11 +119,131 @@ figcaption
 ///////////////fondos/////////////////
 .bg-fondo
   &-1
-    //background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/curso/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    //background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #F9F7F4
+.tabs-b__tab
+  background-color: #FFF2EB
+
+//////////////CUSTOM AVATAR-LEFT//////////////
+.tarjeta-avatar-b__img
+  min-width: 29%
+  display: block
+  @media screen and ( max-width: $bp-max-sm )
+    min-width: auto
+.tarjeta--azul 
+  background-color: #F0F3FD
+  border: 3px solid #FF7630
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #941FF0 !important
+  color: white
+.acordion__activo
+  background-color: #EBF4FF !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #941FF0 !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D9D9D9
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D9D9D9
+    
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #E2DACC
+  border-radius: 20px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -5px
+  width: 85px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 80px
+
+//////// Card hover ////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #FFF4E5
+      h4
+        color: $color-sistema-texto
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.6rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FFF4E5
+    text-align: center
+    h4
+      color: $color-sistema-texto
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+      
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #941FF0
+  color: #fff !important
+.tabs-a__tab
+  background-color: #F1F6FF
+.tarjeta.color-acento-botones--borde
+  background-color: #EBF4FF
+  border: solid 4px #EBF4FF
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #DAB0FA
+  border: #DAB0FA
+.slyder-a__bullets__item--active
+  background-color: #941FF0
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #941FF0

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <filter id="Elipse_11494" x="0" y="0" width="102" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="path495" d="M0-682.665H46.767V-635.9H0Z" transform="translate(0 682.665)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1228020" data-name="Grupo 1228020" transform="translate(-1011 -3670.11)">
+    <g id="Grupo_1227309" data-name="Grupo 1227309" transform="translate(1020 3676.11)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_11494)">
+        <g id="Elipse_11494-2" data-name="Elipse 11494" transform="translate(9 6)" fill="#e1e7fb" stroke="#fff" stroke-width="4">
+          <circle cx="42" cy="42" r="42" stroke="none"/>
+          <circle cx="42" cy="42" r="40" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="g489" transform="translate(1039.761 4377.392)">
+      <g id="g491" transform="translate(0 -682.665)">
+        <g id="g493" clip-path="url(#clip-path)">
+          <g id="g499" transform="translate(0.913 22.773)">
+            <path id="path501" d="M0,0,2.937,10.572a3.111,3.111,0,0,0,3,2.278h7.571a3.111,3.111,0,0,0,3-2.274L19.456,0Z" fill="#daecff"/>
+          </g>
+          <g id="g503" transform="translate(10.641 30.72)">
+            <path id="path505" d="M0,0H2.829" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g507" transform="translate(10.641 26.865)">
+            <path id="path509" d="M0,0H2.829" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g511" transform="translate(18.991 22.773)">
+            <path id="path513" d="M-131.927,0h-8.324l-1.378,4.934h22.386c4.019,0,4.476-4.934,4.476-4.934h-17.16Z" transform="translate(141.629)" fill="#daecff"/>
+          </g>
+          <g id="g515" transform="translate(0.913 22.773)">
+            <path id="path517" d="M0,0,2.937,10.572a3.111,3.111,0,0,0,3,2.278h7.571a3.111,3.111,0,0,0,3-2.274L19.456,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g519" transform="translate(18.991 22.773)">
+            <path id="path521" d="M-131.927,0h-8.324l-1.378,4.934h22.386c4.019,0,4.476-4.934,4.476-4.934h-9.122" transform="translate(141.629)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g523" transform="translate(0.913 11.143)">
+            <path id="path525" d="M0-158.131l4.026-8.1a6.368,6.368,0,0,1,11.4,0l4.026,8.1Z" transform="translate(0 169.761)" fill="#ffe4b2"/>
+          </g>
+          <g id="g527" transform="translate(0.913 11.143)">
+            <path id="path529" d="M0-158.131l4.026-8.1a6.368,6.368,0,0,1,11.4,0l4.026,8.1Z" transform="translate(0 169.761)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g531" transform="translate(10.641 22.773)">
+            <path id="path533" d="M0,0V12.85" transform="translate(0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g535" transform="translate(32.891 22.773)">
+            <path id="path537" d="M0,0H0" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

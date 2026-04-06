@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+  <g id="Grupo_1227994" data-name="Grupo 1227994" transform="translate(-282.051 -2211)">
+    <rect id="Rectángulo_402373" data-name="Rectángulo 402373" width="85" height="85" transform="translate(282.051 2211)" fill="none"/>
+    <g id="Layer_2_00000064347168097360470750000017403792767438949291_" transform="translate(286.82 2127.214)">
+      <g id="circle_round" transform="translate(0 103.5)">
+        <path id="Trazado_1308056" data-name="Trazado 1308056" d="M37.366,148.018c-9.838,0-19.121-2.233-26.127-6.291C4,137.523,0,131.86,0,125.759s4-11.764,11.239-15.968c7.006-4.058,16.289-6.291,26.127-6.291s19.121,2.233,26.127,6.291c7.254,4.2,11.239,9.867,11.239,15.968s-4,11.764-11.239,15.968C56.486,145.784,47.2,148.018,37.366,148.018Z" transform="translate(0 -103.5)"/>
+        <ellipse id="Elipse_13842" data-name="Elipse 13842" cx="36.21" cy="20.838" rx="36.21" ry="20.838" transform="translate(1.156 1.421)" fill="#ffeacb"/>
+      </g>
+    </g>
+  </g>
+</svg>
