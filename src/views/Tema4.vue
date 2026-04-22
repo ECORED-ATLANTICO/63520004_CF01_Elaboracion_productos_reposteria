@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Procedimientos para la manipulación correcta de alimentos
+      h1 Proceso de alistamiento y diagrama de flujo
     
     img(src="@/assets/curso/tema4/1.png", alt="Imagen decorativa")
     
@@ -18,15 +18,15 @@
         separador
         
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.1 Procedimientos para el manejo higiénico de los alimentos
+          h2 4.1 El concepto de <em>mise en place</em> aplicado a la producción de repostería
         
         .row.mb-5.justify-content-center.align-items-center
           .col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
           .col-lg-9
-            p(data-aos="fade-right") Mise en place es un término francés que significa poner en su lugar o preparar. En el ámbito culinario, y especialmente en repostería, es una filosofía de trabajo que implica tener todos los ingredientes, herramientas y equipos preparados, medidos y organizados antes de comenzar la producción.
-            p.mb-0 Dentro de los beneficios del mise en place en repostería tenemos:
+            p(data-aos="fade-right") <em>Mise en place</em> es un término francés que significa poner en su lugar o preparar. En el ámbito culinario, y especialmente en repostería, es una filosofía de trabajo que implica tener todos los ingredientes, herramientas y equipos preparados, medidos y organizados antes de comenzar la producción.
+            p.mb-0 Dentro de los beneficios del <em>mise en place</em> en repostería tenemos:
     
     
         .row.mb-5
@@ -57,11 +57,11 @@
                 img(src='@/assets/curso/tema4/6.svg' alt='')
               .tarjeta.tarjeta--azul.h-100
                 .p-3
-                  p.mb-0 <b>Facilita la limpieza</b>: el orden inicial y el hábito de limpiar mientras se trabaja (clean as you go) evita la acumulación de desorden al final.
+                  p.mb-0 <b>Facilita la limpieza</b>: el orden inicial y el hábito de limpiar mientras se trabaja (<em>clean as you go</em>) evita la acumulación de desorden al final.
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-8(data-aos="fade-up")
-            p.bg-color-3.p-4.tarjeta.text-center Pasos para una correcta Mise en place
+            p.bg-color-3.p-4.tarjeta.text-center Pasos para una correcta <em>Mise en place</em>
     
     .bg-full-width.bg-fondo-3.mb-5
       .px-4.px-md-5
@@ -79,7 +79,7 @@
                 p.text-center Reunir todos los utensilios y equipos necesarios.
               .bg-color-sintesis.tarjeta.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema4/11.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                p.text-center Pesar y medir cada ingrediente en recipientes individuales (bains-marie o bowls pequeños), siguiendo el orden de la receta.
+                p.text-center Pesar y medir cada ingrediente en recipientes individuales (<em>bains-marie</em> o <em>bowls</em>s pequeños), siguiendo el orden de la receta.
               .bg-color-sintesis.tarjeta.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema4/12.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 p.text-center Realizar las preparaciones previas: tamizar harinas, picar chocolate, tostar frutos secos, pre-calentar el horno, engrasar moldes.
@@ -93,7 +93,7 @@
     separador
     
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2 Criterios para la recepción y almacenamiento seguro de materias primas
+      h2 4.2	Interpretación de diagramas de proceso para el alistamiento de insumos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.order-2
@@ -121,7 +121,7 @@
         .row.justify-content-center.align-items-center.p-4.p-lg-0
           .col-lg-8.mb-4.mb-lg-0
             h4 Rectángulo (operación)
-            p Representa una acción o conjunto de acciones que transforman el producto 
+            p Representa una acción o conjunto de acciones que transforman el producto. 
             p <b>Ejemplo</b>: pesar la harina, batir mantequilla y azúcar.
           .col-lg-3
             figure
@@ -149,15 +149,15 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
-          span Diagrama de proceso para el alistamiento de insumos, para para un bizcocho básico.
+          span Diagrama de proceso para el alistamiento de insumos, para para un bizcocho básico
         img.mb-2.d-none.d-md-block(data-aos="fade-up", src="@/assets/curso/tema4/19.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
         img.mb-2.d-md-none(data-aos="fade-up", src="@/assets/curso/tema4/19-1.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
-        figcaption <strong>Fuente:</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     separador
     
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 Medidas para prevenir la contaminación cruzada durante la preparación
+      h2 4.3 Técnicas de pesaje, medición y pre-preparación de ingredientes
     
     img(src="@/assets/curso/tema4/20.png", alt="Imagen decorativa")
     
@@ -209,7 +209,7 @@
               .tarjeta.bg-color-sintesis.box-shadow
                 .p-4.text-center
                   h5.bg-color-5.p-2.d-inline-block.mb-3 Tamizar: 
-                p Pasar la harina, el polvo de hornear, el cacao en polvo y el azúcar glass por un colador o tamiz. Esto:
+                p Pasar la harina, el polvo de hornear, el cacao en polvo y el azúcar <em>glass</em> por un colador o tamiz. Esto:
                 ul.lista-ul--color.ms-3
                   li.mb-3.d-flex
                     i.fas.fa-circle.fa-xs.mt-2
@@ -238,7 +238,7 @@
               .tarjeta.bg-color-sintesis.box-shadow
                 .p-4.text-center
                   h5.bg-color-5.p-2.d-inline-block.mb-3 Derretir: 
-                p.mb-0 Fundir ingredientes como chocolate o mantequilla. El chocolate debe derretirse a baño María o en microondas con sumo cuidado (en intervalos cortos) para evitar que se queme o se corte.
+                p.mb-0 Fundir ingredientes como chocolate o mantequilla. El chocolate debe derretirse a baño maría o en microondas con sumo cuidado (en intervalos cortos) para evitar que se queme o se corte.
 
 
 

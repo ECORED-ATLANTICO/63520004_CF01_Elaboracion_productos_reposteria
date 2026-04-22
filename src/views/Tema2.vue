@@ -46,7 +46,7 @@
           div(titulo="Horno rotatorio")
             p.ms-5 Los carros con las bandejas giran en su interior, garantizando una cocción homogénea, utilizado en producciones de gran volumen.
           div(titulo="Horno de pisos (o de solera)")
-            p.ms-5 Con piedra refractaria, ideal para panes y masas fermentadas, proporciona un calor seco y concentrado..
+            p.ms-5 Con piedra refractaria, ideal para panes y masas fermentadas, proporciona un calor seco y concentrado.
           div(titulo="Estufas")
             p.ms-5 Se utilizan para la elaboración de cremas, almíbares, salsas y cocciones en seco (tostar frutos secos). Pueden ser a gas o de inducción.
           div(titulo="Freidoras")
@@ -57,14 +57,14 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Equipos de batido y mezclado
     
-    p.mb-5 Son fundamentales para integrar correctamente los ingredientes y lograr preparaciones con la textura y consistencia adecuadas. A través del batido y la mezcla se incorporan aire, líquidos y sólidos, permitiendo obtener masas homogéneas que facilitan el desarrollo adecuado de los productos durante la cocción. El uso correcto de estos equipos permite optimizar el tiempo de preparación, mejorar la calidad de las masas y asegurar que los productos de repostería, como tortas, cremas y batidos, alcancen las características deseadas
+    p.mb-5 Son fundamentales para integrar correctamente los ingredientes y lograr preparaciones con la textura y consistencia adecuadas. A través del batido y la mezcla se incorporan aire, líquidos y sólidos, permitiendo obtener masas homogéneas que facilitan el desarrollo adecuado de los productos durante la cocción. El uso correcto de estos equipos permite optimizar el tiempo de preparación, mejorar la calidad de las masas y asegurar que los productos de repostería, como tortas, cremas y batidos, alcancen las características deseadas.
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Batidora de pedestal(o amasadora)" :icono="require('@/assets/componentes/7.svg')")
         .row.justify-content-center.align-items-center.p-4.p-lg-0
           .col-lg-8.mb-4.mb-lg-0
             h4 Batidora de pedestal(o amasadora)
-            p La más común. consta de un bowl y varios accesorios (globo, pala, gancho) que realizan diferentes funciones. Fundamental para elaborar merengues, cremas, masas batidas y masas pesadas (pan, pasta).
+            p La más común. consta de un <em>bowl</em> y varios accesorios (globo, pala, gancho) que realizan diferentes funciones. Fundamental para elaborar merengues, cremas, masas batidas y masas pesadas (pan, pasta).
           .col-lg-3
             figure
               img(src='@/assets/curso/tema2/4.png', alt='')
@@ -116,7 +116,7 @@
             figure
               img(src="@/assets/curso/tema2/10.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Congeladores (freezers) 
+            h4.mb-3 Congeladores (<em>freezers</em>) 
             p.mb-0 Permiten la conservación a largo plazo de materias primas (mantequilla, frutas congeladas) y de productos semiterminados o terminados (masas congeladas, helados). Su temperatura debe ser de -18 °C o inferior.
     
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -140,7 +140,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/12.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 En la repostería, las herramientas de mano y los utensilios especializados son fundamentales para facilitar la preparación, el moldeado y la decoración de los productos. Elementos como los moldes, las boquillas y las básculas permiten trabajar con mayor precisión, dar forma a las preparaciones, realizar decoraciones y medir correctamente los ingredientes. El conocimiento y uso adecuado de estos utensilios contribuye a mejorar la calidad, presentación y uniformidad de los productos elaborado
+            p.mb-0 En la repostería, las herramientas de mano y los utensilios especializados son fundamentales para facilitar la preparación, el moldeado y la decoración de los productos. Elementos como los moldes, las boquillas y las básculas permiten trabajar con mayor precisión, dar forma a las preparaciones, realizar decoraciones y medir correctamente los ingredientes. El conocimiento y uso adecuado de estos utensilios contribuye a mejorar la calidad, presentación y uniformidad de los productos elaborado.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -221,7 +221,7 @@
             figure
               img(src="@/assets/curso/tema2/20.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Raspadores de mesa (cornés)
+            h4.mb-3 Raspadores de mesa (<em>cornés</em>)
             p.mb-0 Indispensables para limpiar la superficie de trabajo, dividir masas y recoger ingredientes.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -254,10 +254,10 @@
         ul.lista-ul--color.ms-3
           li.mb-1.d-flex
             i.fas.fa-circle.fa-xs.mt-2
-            | Bizcochos: redondos, rectangulares (tipo brownie), cake pops. 
+            p.mb-0 Bizcochos: redondos, rectangulares (tipo brownie), <em>cake pops</em>. 
           li.mb-1.d-flex
             i.fas.fa-circle.fa-xs.mt-2
-            | Ponqués: alargados (pound cake), redondos con hueco central (tipo ángel food).
+            p.mb-0 Ponqués: alargados (<em>pound cake</em>), redondos con hueco central (tipo ángel <em>food</em>).
           li.mb-1.d-flex
             i.fas.fa-circle.fa-xs.mt-2
             | Postres individuales: flaneras, aros de emplatar.
@@ -270,7 +270,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.col-xl-3.mb-3.mb-lg-0
             .bg-color-8.p-3.tarjeta 
-              p.mb-0 <b>Herramientas de decoración</b>: permiten mejorar la presentación y el acabado final de los productos elaborados. A través de estas herramientas es posible aplicar diferentes técnicas para decorar tortas, cupcakes, galletas y otros postres, logrando preparaciones más atractivas y creativas. Entre las diferentes herramientas de decoración, tenemos:
+              p.mb-0 <b>Herramientas de decoración</b>: permiten mejorar la presentación y el acabado final de los productos elaborados. A través de estas herramientas es posible aplicar diferentes técnicas para decorar tortas, <em>cupcakes</em>, galletas y otros postres, logrando preparaciones más atractivas y creativas. Entre las diferentes herramientas de decoración, tenemos:
           .col-md-8.col-lg-5.col-xl-3.mb-3.mb-xl-0
             figure
               img(src="@/assets/curso/tema2/24.png", data-aos="zoom-in")
@@ -324,7 +324,7 @@
                 img(src='@/assets/curso/tema2/28.svg' alt='')
               .tarjeta.tarjeta--azul.h-100
                 .p-3
-                  p.mb-0 <b>Diagrama de partes y ensamble:</b> identifica cada componente de la máquina (bowl, batidor, protector, etc.) e indica cómo se ensamblan y desensamblan correctamente para su uso y limpieza.
+                  p.mb-0 <b>Diagrama de partes y ensamble:</b> identifica cada componente de la máquina (<em>bowl</em>, batidor, protector, etc.) e indica cómo se ensamblan y desensamblan correctamente para su uso y limpieza.
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
@@ -333,7 +333,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               img.d-none.d-lg-flex(src="@/assets/curso/tema2/29.svg", style="max-width: 90px").mx-auto
             .col-lg.px-4.pb-4.pb-lg-0
-              p.mb-0 <b>Ejemplo</b>: en una batidora de pedestal, es crucial saber cómo acoplar el bowl, cómo insertar el batidor (globo, pala o gancho) hasta que encaje en el eje y cómo subir o bajar la plataforma.
+              p.mb-0 <b>Ejemplo</b>: en una batidora de pedestal, es crucial saber cómo acoplar el <em>bowl</em>, cómo insertar el batidor (globo, pala o gancho) hasta que encaje en el eje y cómo subir o bajar la plataforma.
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -349,7 +349,7 @@
             img(src='@/assets/curso/tema2/31.svg' alt='')
           .tarjeta.tarjeta--azul.h-100
             .p-3
-              p.mb-0 <b>Normas de seguridad</b>: advertencias críticas para evitar accidentes. Por ejemplo: nunca introducir las manos o utensilios en el bowl mientras la batidora esté en funcionamiento o apagar y desconectar el equipo antes de realizar cualquier limpieza.
+              p.mb-0 <b>Normas de seguridad</b>: advertencias críticas para evitar accidentes. Por ejemplo: nunca introducir las manos o utensilios en el <em>bowl</em> mientras la batidora esté en funcionamiento o apagar y desconectar el equipo antes de realizar cualquier limpieza.
       .col-lg-4.mb-3.mb-lg-0
         .tarjeta-avatar-b.h-100(data-aos="fade-up")
           .tarjeta-avatar-b__img
@@ -365,7 +365,7 @@
           span Diagrama de las partes de una batidora de pedestal
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/33.png", alt="La figura muestra el diagrama de partes o ensamble de una batidora de pedestal.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/33-1.png", alt="La figura muestra el diagrama de partes o ensamble de una batidora de pedestal.")
-        figcaption <strong>Fuente:</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
   
     separador
     
@@ -444,7 +444,7 @@
                 p.mb-0 Eliminar completamente los residuos de jabón con abundante agua caliente.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Desinfección")
                 h4 Desinfección
-                p.mb-0 Sumergir en una solución desinfectante apta para alimentos (ej. hipoclorito de sodio en concentración adecuada: 50 - 100 ppm para superficies en contacto con alimentos) durante el tiempo recomendado (generalmente 5 - 10 minutos). También se puede usar un desinfectante en spray aprobado.
+                p.mb-0 Sumergir en una solución desinfectante apta para alimentos (ej. hipoclorito de sodio en concentración adecuada: 50 - 100 ppm para superficies en contacto con alimentos) durante el tiempo recomendado (generalmente 5 - 10 minutos). También se puede usar un desinfectante en <em>spray</em> aprobado.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Secado")
                 h4 Secado
                 p.mb-0 Secar al aire sobre una rejilla limpia o con paños de un solo uso (toallas de papel) para evitar la re-contaminación.
@@ -457,7 +457,7 @@
                   img(src="@/assets/curso/tema2/35.png", alt="alt")
               .crd_hover_txt--body
                 h4.mb-3 Diario
-                p.mb-0 Limpieza y desinfección superficial: lavar bowl y batidores; limpiar puerta del horno; vaciar y limpiar nevera.
+                p.mb-0 Limpieza y desinfección superficial: lavar <em>bowl</em> y batidores; limpiar puerta del horno; vaciar y limpiar nevera.
 
         
           .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0

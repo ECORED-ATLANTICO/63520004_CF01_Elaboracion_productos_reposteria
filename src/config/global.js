@@ -139,6 +139,12 @@ export default {
               'Interpretación de diagramas de proceso para el alistamiento de insumos',
             hash: 't_4_2',
           },
+          {
+            numero: '4.3',
+            titulo:
+              'Técnicas de pesaje, medición y pre-preparación de ingredientes',
+            hash: 't_4_3',
+          },
         ],
       },
     ],
@@ -173,7 +179,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_000000_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -333,7 +339,7 @@ export default {
     {
       referencia:
         'COLOMBIA. MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL. (2020). <em>Resolución 2019050025 de 2020.</em>',
-      link: 'https://www.invima.gov.co/resoluciones',
+      link: '',
     },
     {
       referencia:
@@ -343,8 +349,7 @@ export default {
     {
       referencia:
         'GISSELEN, W. (2010). <em>Gastronomía Molecular: La Ciencia en la Cocina.</em> Editorial Acribia.',
-      link:
-        'https://www.editorialacribia.com/libro/gastronomia-molecular_116018',
+      link: '',
     },
     {
       referencia:
@@ -359,8 +364,7 @@ export default {
     {
       referencia:
         'INSTITUTO COLOMBIANO DE NORMAS TÉCNICAS Y CERTIFICACIÓN (ICONTEC). (2009). <em>NTC 5842:2009.</em>',
-      link:
-        'https://tienda.icontec.org/ntc-buenas-practicas-de-higiene-para-el-control-de-listeria-monocytogenes-en-alimentos-ntc5842-2009.html',
+      link: '',
     },
     {
       referencia:
@@ -433,7 +437,7 @@ export default {
     {
       referencia:
         'VILLEGAS, A. (2017). <em>Tecnología de Alimentos Aplicada a la Panadería y Repostería.</em> Universidad de Antioquia.',
-      link: 'https://bibliotecadigital.udea.edu.co/handle/10495/12456',
+      link: '',
     },
   ],
   creditos: [
@@ -444,7 +448,7 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturistico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre ',

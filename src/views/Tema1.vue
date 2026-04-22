@@ -48,7 +48,7 @@
                     img(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
         
               h3.bg-color-5.p-2.mb-4.text-center Calidad consistente
-              p.text-center U entorno de trabajo ordenado y limpio permite seguir las recetas al pie de la letra, reduciendo la variabilidad y asegurando un producto final uniforme.
+              p.text-center Un entorno de trabajo ordenado y limpio permite seguir las recetas al pie de la letra, reduciendo la variabilidad y asegurando un producto final uniforme.
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
             .tarjeta--boton.bg-color-sintesis.box-shadow.h-100.p-4
               .row.justify-content-center.mb-3
@@ -87,7 +87,7 @@
           div(titulo="Equipos, recipientes y utensilios")
             .row.justify-content-center.p-3
               .col-xl-8
-                p.ms-5 Incluye todos los elementos que entran en contacto directo con los alimentos durante su procesamiento. Deben estar fabricados con materiales resistentes, lisos, no absorbentes y no reactivos, que permitan su fácil limpieza y desinfección..
+                p.ms-5 Incluye todos los elementos que entran en contacto directo con los alimentos durante su procesamiento. Deben estar fabricados con materiales resistentes, lisos, no absorbentes y no reactivos, que permitan su fácil limpieza y desinfección. Además, deben instalarse de manera que faciliten el mantenimiento, el desmontaje y la prevención de contaminación cruzada. 
               .col-xl-4
                 figure
                   img(src="@/assets/curso/tema1/9.png", alt="")
@@ -150,7 +150,7 @@
                 i.fas.fa-circle.fa-xs.mt-2.bg-color-7
                 | Control de plagas.
           
-          p(numero="3" titulo="Resolución 2674 de 2013") Actualmente, es la norma sanitaria vigente que establece los requisitos sanitarios que deben cumplir las personas que elaboran, distribuyen y comercializan alimentos. Deroga el Capítulo I del Título II del Decreto 3075 de 1997 y refuerza la obligatoriedad de implementar un sistema de aseguramiento de la calidad, basado en los principios de BPM..
+          p(numero="3" titulo="Resolución 2674 de 2013") Actualmente, es la norma sanitaria vigente que establece los requisitos sanitarios que deben cumplir las personas que elaboran, distribuyen y comercializan alimentos. Deroga el Capítulo I del Título II del Decreto 3075 de 1997 y refuerza la obligatoriedad de implementar un sistema de aseguramiento de la calidad, basado en los principios de BPM.
           
           p(numero="4" titulo="Resolución 2827 de 2006") Establece los requisitos para la certificación en BPM para fabricantes de alimentos.  
     
@@ -191,7 +191,7 @@
                 img(src='@/assets/curso/tema1/16.svg' alt='')
               .tarjeta.tarjeta--azul.h-100
                 .p-3
-                  p.mb-0 Organización y planificación: capaz de gestionar su tiempo y recursos eficientemente (mise en place).
+                  p.mb-0 Organización y planificación: capaz de gestionar su tiempo y recursos eficientemente (<em>mise en place</em>).
           .col-lg-3.mb-3.mb-lg-0
             .tarjeta-avatar-b.h-100(data-aos="fade-down")
               .tarjeta-avatar-b__img
@@ -205,7 +205,7 @@
             p.bg-color-3.p-4.tarjeta.text-center En cuanto a la seguridad en el área de trabajo, se deben prevenir los riesgos inherentes a la actividad:
 
         TabsB.color-acento-contenido.mb-5
-          .py-4.py-md-5(titulo="Físico" :icono="require('@/assets/componentes/2.svg')")
+          .py-4.py-md-5(titulo="Físico" :icono="require('@/assets/componentes/3.svg')")
             .row.justify-content-center.align-items-center.p-4.p-lg-0
               .col-lg-8.mb-4.mb-lg-0
                 h4 Físico
@@ -214,16 +214,16 @@
               .col-lg-3
                 figure
                   img(src='@/assets/curso/tema1/18.png', alt='')
-          .py-4.py-md-5(titulo="Térmico" :icono="require('@/assets/componentes/3.svg')")
+          .py-4.py-md-5(titulo="Térmico" :icono="require('@/assets/componentes/4.svg')")
             .row.justify-content-center.align-items-center.p-4.p-lg-0
               .col-lg-8.mb-4.mb-lg-0
                 h4 Térmico
                 p Quemaduras por hornos, estufas, vapor, azúcar caliente o aceite.
-                p <b>Medida preventiva</b>: uso de guantes térmicos (manoplas), delantales, mangas largas y extremar la precaución al manipular líquidos calientes
+                p <b>Medida preventiva</b>: uso de guantes térmicos (manoplas), delantales, mangas largas y extremar la precaución al manipular líquidos calientes.
               .col-lg-3
                 figure
                   img(src='@/assets/curso/tema1/19.png', alt='')
-          .py-4.py-md-5(titulo="Eléctrico" :icono="require('@/assets/componentes/4.svg')")
+          .py-4.py-md-5(titulo="Eléctrico" :icono="require('@/assets/componentes/5.svg')")
             .row.justify-content-center.align-items-center.p-4.p-lg-0
               .col-lg-8.mb-4.mb-lg-0
                 h4 Eléctrico
@@ -232,7 +232,7 @@
               .col-lg-3
                 figure
                   img(src='@/assets/curso/tema1/20.png', alt='')
-          .py-4.py-md-5(titulo="Ergonómico" :icono="require('@/assets/componentes/5.svg')")
+          .py-4.py-md-5(titulo="Ergonómico" :icono="require('@/assets/componentes/6.svg')")
             .row.justify-content-center.align-items-center.p-4.p-lg-0
               .col-lg-8.mb-4.mb-lg-0
                 h4 Ergonómico
@@ -241,7 +241,7 @@
               .col-lg-3
                 figure
                   img(src='@/assets/curso/tema1/21.png', alt='')
-          .py-4.py-md-5(titulo="Químico" :icono="require('@/assets/componentes/6.svg')")
+          .py-4.py-md-5(titulo="Químico" :icono="require('@/assets/componentes/2.svg')")
             .row.justify-content-center.align-items-center.p-4.p-lg-0
               .col-lg-8.mb-4.mb-lg-0
                 h4 Químico

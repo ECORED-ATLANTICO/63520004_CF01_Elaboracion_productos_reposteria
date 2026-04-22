@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Requisitos de higiene y salud del personal manipulador
+      h1 Materias primas e insumos: identificación y selección
     
     .bloque-texto-g.color-secundario.bg-color-9.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -90,17 +90,18 @@
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcar blanco (sacarosa)")
             h4 Azúcar blanco (sacarosa)
-            p.mb-0 Se obtiene principalmente de la caña de azúcar mediante procesos de refinamiento que permiten obtener cristales blancos y de sabor dulce.
+            p.mb-0 Se obtiene principalmente de la caña de azúcar mediante procesos de refinamiento que permiten obtener cristales blancos y de sabor dulce. No solo aporta dulzor, sino que también contribuye a mejorar la textura, el volumen y el color de los productos durante la cocción. 
+
           .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcar granulada")
             h4 Azúcar granulada
             p.mb-0 Es un tipo de azúcar refinada que se presenta en pequeños cristales secos y sueltos, lo que facilita su manejo y disolución en diferentes preparaciones. Es uno de los tipos de azúcar más comunes en la cocina y la repostería debido a su versatilidad y facilidad de uso.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcar glass (impalpable)")
-            h4 Azúcar glass (impalpable)
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcar <em>glass</em> (impalpable)")
+            h4 Azúcar <em>glass</em> (impalpable)
             p También conocido como azúcar pulverizada o azúcar en polvo, es un tipo de azúcar que ha sido molido hasta obtener una textura muy fina. 
             p.mb-0 En repostería, se utiliza principalmente para preparar glaseados, cremas, coberturas y para decorar productos como tortas, galletas y postres.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcares morenos ")
             h4 Azúcares morenos 
-            p.mb-0 Es un tipo de azúcar que conserva parte de la melaza natural de la caña de azúcar, lo que le da su color oscuro, un sabor más intenso y una textura ligeramente húmeda. Estas características la diferencian de la azúcar blanca refinad, Ideales para brownies, galletas de chispas de chocolate y pasteles de especias.
+            p.mb-0 Es un tipo de azúcar que conserva parte de la melaza natural de la caña de azúcar, lo que le da su color oscuro, un sabor más intenso y una textura ligeramente húmeda. Estas características la diferencian de la azúcar blanca refinad, Ideales para <em>brownie</em>s, galletas de chispas de chocolate y pasteles de especias.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Miel y otros edulcorantes")
             h4 Miel y otros edulcorantes
             p La miel es un producto natural elaborado por las abejas a partir del néctar de las flores, y se caracteriza por su sabor particular, su textura líquida y su capacidad para aportar humedad a las mezclas.
@@ -135,10 +136,10 @@
           .col-lg-3
             figure
               img(src='@/assets/curso/tema3/11.png', alt='')
-      .py-4.py-md-5(titulo="Aceites vegetales" :icono="require('@/assets/componentes/13.svg')")
+      .py-4.py-md-5(titulo="Aceites vegetales (girasol, canola, maíz)" :icono="require('@/assets/componentes/13.svg')")
         .row.justify-content-center.align-items-center.p-4.p-lg-0
           .col-lg-8.mb-4.mb-lg-0
-            h4 (girasol, canola, maíz)
+            h4 Aceites vegetales (girasol, canola, maíz)
             p Son grasas líquidas de origen vegetal usados en bizcochos húmedos (como el de zanahoria o yogur) y masas fritas. No aportan sabor y mantienen los productos más húmedos por más tiempo.
           .col-lg-3
             figure
@@ -199,9 +200,9 @@
             .col-lg-8.mb-4.mb-md-0.order-1
               h4 Lácteos
               p <b>Leche</b>: entera, semidesnatada o desnatada. La grasa de la leche entera aporta sabor y terneza. Se puede usar en polvo (rehidratada) para mayor duración.
-              p <b>Crema de leche (o nata)</b>: fundamental para ganaches, mousses, cremas chantilly y salsas. Según su contenido de grasa (35-40 %) para montar), puede batirse para aumentar su volumen.
+              p <b>Crema de leche (o nata)</b>: fundamental para <em>ganaches, mousses</em>, cremas <em>chantilly</em> y salsas. Según su contenido de grasa (35-40 %) para montar), puede batirse para aumentar su volumen.
               p <b>Huevos</b>: un ingrediente multifuncional. Las claras aportan estructura y esponjosidad (al batirlas). Las yemas aportan grasa, color, sabor y actúan como emulsionantes.
-              p <b>Quesos</b>: crema (tipo Philadelphia) para cheesecakes, mascarpone para tiramisú, ricotta para tartas y pastas.
+              p <b>Quesos</b>: crema (tipo Philadelphia) para <em>cheesecakes</em>, mascarpone para <em>tiramisú, ricotta</em> para tartas y pastas.
 
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
@@ -213,7 +214,7 @@
 
               p <b>Chocolate con leche</b>: mezcla de pasta de cacao, manteca de cacao, leche y azúcar.
 
-              p <b>Chocolate oscuro (amargo, semi-amargo, bitter)</b>: contiene pasta de cacao, manteca de cacao y azúcar. A mayor porcentaje de cacao (>70 %), más intenso y menos dulce.
+              p <b>Chocolate oscuro (amargo, semi-amargo, <em>bitter</em>)</b>: contiene pasta de cacao, manteca de cacao y azúcar. A mayor porcentaje de cacao (>70 %), más intenso y menos dulce.
 
               p <b>Formatos</b>: en cobertura (tabletas de alta calidad, con mayor contenido de manteca de cacao, ideales para templar y fundir), en polvo (para mezclar o decorar), en gotas (para galletas).
 
@@ -223,11 +224,11 @@
                 img(src='@/assets/curso/tema3/18.png', alt='Imagen de acompañamiento')
             .col-lg-8.mb-4.mb-md-0.order-1
               h4 Frutas
-              p <b>Frescas</b>: frutas de temporada (fresas, frambuesas, moras, manzanas, peras, duraznos) para decorar, rellenar, hacer compotas o coulis.
+              p <b>Frescas</b>: frutas de temporada (fresas, frambuesas, moras, manzanas, peras, duraznos) para decorar, rellenar, hacer compotas o <em>coulis</em>.
 
               p <b>Deshidratadas</b>: pasas, ciruelas, orejones, arándanos, dátiles. Aportan dulzor concentrado y textura.
 
-              p <b>En conservas</b>: (o almíbar o pulpas): Para rellenos y elaboración de mermeladas o jaleas.
+              p <b>En conservas</b>: (o almíbar o pulpas): para rellenos y elaboración de mermeladas o jaleas.
 
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2
@@ -235,7 +236,7 @@
                 img(src='@/assets/curso/tema3/19.png', alt='Imagen de acompañamiento')
             .col-lg-8.mb-4.mb-md-0.order-1
               h4 Aditivos
-              p <b>Estabilizantes y espesantes</b>: gelatina (en polvo o láminas, para dar firmeza a mousses y postres fríos), pectina (para espesar mermeladas), almidón de maíz (maicena).
+              p <b>Estabilizantes y espesantes</b>: gelatina (en polvo o láminas, para dar firmeza a <em>mousses</em> y postres fríos), pectina (para espesar mermeladas), almidón de maíz (maicena).
 
               p <b>Saborizantes</b>: extractos (vainilla, almendra, menta), esencias, licores (ron, brandy, licor de naranja), especias (canela, nuez moscada, jengibre, clavo).
 
@@ -280,7 +281,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Textura")
             h4 Textura
             p Consistencia apropiada para el tipo de producto. 
-            p <b>Ejemplo</b>: La mantequilla debe ser firme pero maleable a temperatura ambiente. El chocolate debe ser brillante y quebrarse con un chasquido limpio.
+            p <b>Ejemplo</b>: la mantequilla debe ser firme pero maleable a temperatura ambiente. El chocolate debe ser brillante y quebrarse con un chasquido limpio.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Sabor (en caso de ser posible)")
             h4 Sabor (en caso de ser posible)
