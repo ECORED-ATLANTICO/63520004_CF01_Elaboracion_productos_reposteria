@@ -254,7 +254,7 @@
         ul.lista-ul--color.ms-3
           li.mb-1.d-flex
             i.fas.fa-circle.fa-xs.mt-2
-            p.mb-0 Bizcochos: redondos, rectangulares (tipo brownie), <em>cake pops</em>. 
+            p.mb-0 Bizcochos: redondos, rectangulares (tipo <em>brownie</em>), <em>cake pops</em>. 
           li.mb-1.d-flex
             i.fas.fa-circle.fa-xs.mt-2
             p.mb-0 Ponqués: alargados (<em>pound cake</em>), redondos con hueco central (tipo ángel <em>food</em>).
@@ -365,7 +365,7 @@
           span Diagrama de las partes de una batidora de pedestal
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/33.png", alt="La figura muestra el diagrama de partes o ensamble de una batidora de pedestal.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/33-1.png", alt="La figura muestra el diagrama de partes o ensamble de una batidora de pedestal.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+        figcaption Nota. SENA, (2026).
   
     separador
     

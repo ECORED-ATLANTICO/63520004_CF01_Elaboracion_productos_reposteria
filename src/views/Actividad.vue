@@ -24,7 +24,7 @@ export default {
         '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales sobre normativa, identificación de equipos y selección de materias primas en un entorno simulado de producción de repostería, mediante el análisis crítico de un caso y la aplicación de cuestionarios de verificación.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
@@ -259,7 +259,7 @@ export default {
         {
           id: 11,
           texto:
-            'La reacción de Maillard es la responsable de que el azúcar <em>glass</em> se disuelva fácilmente en los glaseados.',
+            'La reacción de <em>Maillard</em> es la responsable de que el azúcar <em>glass</em> se disuelva fácilmente en los glaseados.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

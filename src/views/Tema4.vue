@@ -61,7 +61,7 @@
         
         .row.justify-content-center.align-items-center.z-2.mb-5
           .col-lg-8(data-aos="fade-up")
-            p.bg-color-3.p-4.tarjeta.text-center Pasos para una correcta <em>Mise en place</em>
+            p.bg-color-3.p-4.tarjeta.text-center Pasos para una correcta <em>mise en place</em>
     
     .bg-full-width.bg-fondo-3.mb-5
       .px-4.px-md-5
@@ -152,7 +152,7 @@
           span Diagrama de proceso para el alistamiento de insumos, para para un bizcocho básico
         img.mb-2.d-none.d-md-block(data-aos="fade-up", src="@/assets/curso/tema4/19.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
         img.mb-2.d-md-none(data-aos="fade-up", src="@/assets/curso/tema4/19-1.svg", alt="La figura muestra la estructura de un diagrama de proceso, para el alistamiento de los insumos requeridos, para la elaboración de un bizcocho básico.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+        figcaption Nota. SENA, (2026).
 
     separador
     

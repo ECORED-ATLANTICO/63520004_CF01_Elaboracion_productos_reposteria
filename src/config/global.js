@@ -320,7 +320,8 @@ export default {
       link: 'https://www.asemac.es/publicaciones/guias-tecnicas',
     },
     {
-      referencia: 'CODEX ALIMENTARIUS. (2020). <em>CAC/RCP 1-1969.</em>',
+      referencia:
+        '<em>CODEX ALIMENTARIUS</em>. (2020). <em>CAC/RCP 1-1969.</em>',
       link:
         'http://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/es/',
     },
@@ -343,7 +344,7 @@ export default {
     },
     {
       referencia:
-        'FOOD AND DRUG ADMINISTRATION (FDA). (2022). <em>Food Code.</em>',
+        '<em>FOOD AND DRUG ADMINISTRATION</em> (FDA). (2022). <em>Food Code.</em>',
       link: 'https://www.fda.gov/food/fda-food-code/food-code-2022',
     },
     {
@@ -374,7 +375,7 @@ export default {
     },
     {
       referencia:
-        'INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). (2018). <em>ISO 22000:2018.</em>',
+        '<em>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION</em> (ISO). (2018). <em>ISO 22000:2018.</em>',
       link: 'https://www.iso.org/standard/65464.html',
     },
     {

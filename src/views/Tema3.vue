@@ -201,7 +201,7 @@
             .col-lg-8.mb-4.mb-md-0.order-1
               h4 Lácteos
               p <b>Leche</b>: entera, semidesnatada o desnatada. La grasa de la leche entera aporta sabor y terneza. Se puede usar en polvo (rehidratada) para mayor duración.
-              p <b>Crema de leche (o nata)</b>: fundamental para <em>ganaches, mousses</em>, cremas <em>chantilly</em> y salsas. Según su contenido de grasa (35-40 %) para montar), puede batirse para aumentar su volumen.
+              p <b>Crema de leche (o nata)</b>: fundamental para <em>ganaches, mousses</em>, cremas <em>chantilly</em> y salsas. Según su contenido de grasa (35 - 40 % para montar), puede batirse para aumentar su volumen.
               p <b>Huevos</b>: un ingrediente multifuncional. Las claras aportan estructura y esponjosidad (al batirlas). Las yemas aportan grasa, color, sabor y actúan como emulsionantes.
               p <b>Quesos</b>: crema (tipo <em>Philadelphia</em>) para <em>cheesecakes</em>, mascarpone para <em>tiramisú, ricotta</em> para tartas y pastas.
 
@@ -317,7 +317,7 @@
 
           p(numero="5" titulo="Condiciones de conservación y transporte") Temperatura, humedad, protección de la luz.
           
-          p(numero="6" titulo="Vida útil (fecha de vencimiento)") Tiempo durante el cual el producto mantiene sus propiedades óptimas si se conserva adecuadamente
+          p(numero="6" titulo="Vida útil (fecha de vencimiento)") Tiempo durante el cual el producto mantiene sus propiedades óptimas si se conserva adecuadamente.
           
           p(numero="7" titulo="Instrucciones de uso y preparación (si aplica)") Corresponden a las indicaciones que describen de forma clara cómo utilizar o preparar un producto o ingrediente dentro de una receta.
           
