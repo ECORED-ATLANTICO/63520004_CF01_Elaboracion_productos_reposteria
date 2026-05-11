@@ -298,7 +298,7 @@ export default {
         'Temperatura a la cual una grasa o aceite comienza a descomponerse y a desprender humo visible y sustancias tóxicas.',
     },
     {
-      termino: 'Reacción de Maillard',
+      termino: 'Reacción de <em>Maillard</em>',
       significado:
         'Reacción química entre aminoácidos y azúcares reductores que se produce con el calor, responsable del color dorado y los sabores tostados característicos en panes y masas horneadas.',
     },

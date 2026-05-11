@@ -140,7 +140,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/12.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 En la repostería, las herramientas de mano y los utensilios especializados son fundamentales para facilitar la preparación, el moldeado y la decoración de los productos. Elementos como los moldes, las boquillas y las básculas permiten trabajar con mayor precisión, dar forma a las preparaciones, realizar decoraciones y medir correctamente los ingredientes. El conocimiento y uso adecuado de estos utensilios contribuye a mejorar la calidad, presentación y uniformidad de los productos elaborado.
+            p.mb-0 En la repostería, las herramientas de mano y los utensilios especializados son fundamentales para facilitar la preparación, el moldeado y la decoración de los productos. Elementos como los moldes, las boquillas y las básculas permiten trabajar con mayor precisión, dar forma a las preparaciones, realizar decoraciones y medir correctamente los ingredientes. El conocimiento y uso adecuado de estos utensilios contribuye a mejorar la calidad, presentación y uniformidad de los productos elaborados.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -203,7 +203,7 @@
               img(src="@/assets/curso/tema2/18.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Cuchillos y espátulas
-            p.mb-0 Desde cuchillos de sierra para cortar bizcochos, hasta espátulas rectas y acodadas para alisar y decora.
+            p.mb-0 Desde cuchillos de sierra para cortar bizcochos, hasta espátulas rectas y acodadas para alisar y decorar.
     
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta

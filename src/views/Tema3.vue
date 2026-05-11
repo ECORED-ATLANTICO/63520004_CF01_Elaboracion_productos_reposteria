@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En la elaboración de productos de repostería es fundamental que el personal manipulador de alimentos cumpla con adecuados requisitos de higiene y salud, con el fin de garantizar la inocuidad y calidad de las preparaciones. Mantener hábitos como el lavado correcto de manos, el uso de uniforme limpio, la adecuada presentación personal y el cuidado en la manipulación de los alimentos contribuye a prevenir la contaminación y a asegurar procesos de producción más seguros.
+        p.mb-0 Las materias primas e insumos representan un elemento esencial en los procesos de elaboración de productos de repostería, ya que de su adecuada selección y manejo depende en gran medida la calidad del producto final. En este capítulo se reconocerán los diferentes insumos utilizados en repostería, así como aplicar criterios básicos para su elección, almacenamiento y uso. De esta manera, se promueve el desarrollo de habilidades que contribuyen a garantizar preparaciones seguras, estandarizadas y acordes con las necesidades del entorno productivo.
     
     separador
     
@@ -101,7 +101,8 @@
             p.mb-0 En repostería, se utiliza principalmente para preparar glaseados, cremas, coberturas y para decorar productos como tortas, galletas y postres.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Azúcares morenos ")
             h4 Azúcares morenos 
-            p.mb-0 Es un tipo de azúcar que conserva parte de la melaza natural de la caña de azúcar, lo que le da su color oscuro, un sabor más intenso y una textura ligeramente húmeda. Estas características la diferencian de la azúcar blanca refinad, Ideales para <em>brownie</em>s, galletas de chispas de chocolate y pasteles de especias.
+            p.mb-0 Es un tipo de azúcar que conserva parte de la melaza natural de la caña de azúcar, lo que le da su color oscuro, un sabor más intenso y una textura ligeramente húmeda. Estas características la diferencian de la azúcar blanca refinada, la cual es ideal para <em>brownies</em>, galletas de chispas de chocolate y pasteles de especias.
+            
           .tarjeta.color-acento-botones--borde.p-4(titulo="Miel y otros edulcorantes")
             h4 Miel y otros edulcorantes
             p La miel es un producto natural elaborado por las abejas a partir del néctar de las flores, y se caracteriza por su sabor particular, su textura líquida y su capacidad para aportar humedad a las mezclas.
@@ -174,7 +175,7 @@
             p.mb-0 Contiene bicarbonato y un ácido en polvo (cremor tártaro) que se activa con el líquido y con el calor (doble acción), permitiendo que las preparaciones se expandan durante la cocción.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Levadura fresca (prensada)")
             h4 Levadura fresca (prensada)
-            p.mb-0 Es un hongo vivo que fermenta los azúcares de la masa produciendo CO2. Se usa en panes, brioches, roscas
+            p.mb-0 Es un hongo vivo que fermenta los azúcares de la masa produciendo CO<sub>2</sub>. Se usa en panes, brioches, roscas.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Levadura seca (granulada)")
             h4 Levadura seca (granulada)
             p.mb-0 La misma levadura, pero deshidratada. Debe rehidratarse antes de usar (o mezclarse con la harina, según el tipo). Tiene mayor duración que la fresca.
@@ -188,7 +189,7 @@
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
-        p.banner-text En la repostería, además de los ingredientes básicos como harinas, azúcares y grasas, existen insumos complementarios que aportan sabor, aroma, color, textura y valor nutricional a las preparaciones. Estos ingredientes permiten enriquecer las recetas y ampliar la variedad de productos que se pueden elaborar, contribuyendo a mejorar la calidad y presentación de los postres. Estos insumos enriquecen las preparaciones, aportando sabor, color, textura y valor nutricional.
+        p.banner-text En la repostería, además de los ingredientes básicos como harinas, azúcares y grasas, existen insumos complementarios que aportan sabor, aroma, color, textura y valor nutricional a las preparaciones. Estos ingredientes permiten enriquecer las recetas y ampliar la variedad de productos que se pueden elaborar, contribuyendo a mejorar la calidad y presentación de los postres. 
     
     .bg-fondo-slider.bg-full-width.tarjeta.mb-5
       .p-4.p-lg-5
@@ -202,7 +203,7 @@
               p <b>Leche</b>: entera, semidesnatada o desnatada. La grasa de la leche entera aporta sabor y terneza. Se puede usar en polvo (rehidratada) para mayor duración.
               p <b>Crema de leche (o nata)</b>: fundamental para <em>ganaches, mousses</em>, cremas <em>chantilly</em> y salsas. Según su contenido de grasa (35-40 %) para montar), puede batirse para aumentar su volumen.
               p <b>Huevos</b>: un ingrediente multifuncional. Las claras aportan estructura y esponjosidad (al batirlas). Las yemas aportan grasa, color, sabor y actúan como emulsionantes.
-              p <b>Quesos</b>: crema (tipo Philadelphia) para <em>cheesecakes</em>, mascarpone para <em>tiramisú, ricotta</em> para tartas y pastas.
+              p <b>Quesos</b>: crema (tipo <em>Philadelphia</em>) para <em>cheesecakes</em>, mascarpone para <em>tiramisú, ricotta</em> para tartas y pastas.
 
           .row.justify-content-center.align-items-center.p-3.p-lg-5
             .col-lg-4.mb-3.mb-lg-0.order-2

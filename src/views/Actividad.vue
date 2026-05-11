@@ -17,13 +17,13 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
-      titulo:
+      tema:
         'Reconociendo mi taller ideal: diagnóstico de BPM, equipos y materias primas.',
+      titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo: evaluar la comprensión de los conceptos fundamentales sobre normativa, identificación de equipos y selección de materias primas en un entorno simulado de producción de repostería, mediante el análisis crítico de un caso y la aplicación de cuestionarios de verificación.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales sobre normativa, identificación de equipos y selección de materias primas en un entorno simulado de producción de repostería, mediante el análisis crítico de un caso y la aplicación de cuestionarios de verificación.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
